@@ -14,7 +14,9 @@ import { ClientProxySuperFlights } from '../common/proxy/client-proxy';
 import { FlightDTO } from './dto/flight.dto';
 import { FlightMSG, PassengerMSG } from '../common/constants';
 import { lastValueFrom, Observable } from 'rxjs';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('flights')
 @Controller('api/v2/flight')
 export class FlightController {
   constructor(private readonly clientProxy: ClientProxySuperFlights) {}

@@ -6,6 +6,7 @@ npx nest new api-gateway
 yarn add @nestjs/config
 yarn add amqplib amqp-connection-manager @nestjs/microservices class-validator class-transformer
 yarn add @nestjs/swagger
+yarn add swagger-ui-express
 
 npx nest g mo user
 npx nest g co user
