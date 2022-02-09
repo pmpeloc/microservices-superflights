@@ -1,7 +1,7 @@
 import { IPassenger } from './passenger.interface';
-import { IWeather } from './weather.location';
+import { IWeather } from './weather.interface';
 
-export interface IFlight extends Document {
+export interface IFlight {
   pilot: string;
   airplane: string;
   destinationCity: string;
