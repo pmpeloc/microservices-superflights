@@ -1,0 +1,4 @@
+# Init project
+
+npx nest new api-gateway
+yarn add @nestjs/config
