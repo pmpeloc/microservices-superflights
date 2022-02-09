@@ -1,6 +1,6 @@
 # Microservices with NestJS
 
-## Comandos:
+## API Gateway:
 
 npx nest new api-gateway
 yarn add @nestjs/config
@@ -16,3 +16,11 @@ npx nest g co passenger
 
 npx nest g mo flight
 npx nest g co flight
+
+## Microservices:
+
+npx nest new microservice-users
+yarn add bcrypt
+yarn add mongoose @nestjs/mongoose
+yarn add amqplib amqp-connection-manager
+yarn add @nestjs/microservices @nestjs/config
