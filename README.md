@@ -10,5 +10,8 @@ yarn add @nestjs/swagger
 npx nest g mo user
 npx nest g co user
 
-npm nest g mo passenger
-npm nest g co passenger
+npx nest g mo passenger
+npx nest g co passenger
+
+npx nest g mo flight
+npx nest g co flight
