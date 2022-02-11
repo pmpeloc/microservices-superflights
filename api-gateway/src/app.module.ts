@@ -9,7 +9,7 @@ import { FlightModule } from './flight/flight.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
-      envFilePath: ['.env.developement'],
+      envFilePath: ['.env.development'],
       isGlobal: true,
     }),
     UserModule,
