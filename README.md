@@ -27,3 +27,8 @@ yarn add @nestjs/microservices @nestjs/config
 
 npx nest new microservice-passengers
 yarn add amqplib amqp-connection-manager @nestjs/microservices @nestjs/config @nestjs/microservices @nestjs/config mongoose @nestjs/mongoose
+
+npx nest new microservice-flights
+yarn add amqplib amqp-connection-manager @nestjs/microservices @nestjs/config @nestjs/microservices @nestjs/config
+yarn add mongoose @nestjs/mongoose mongoose-autopopulate
+yarn add install axios moment
