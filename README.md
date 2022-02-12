@@ -34,3 +34,11 @@ npx nest new microservice-flights
 yarn add amqplib amqp-connection-manager @nestjs/microservices @nestjs/config @nestjs/microservices @nestjs/config
 yarn add mongoose @nestjs/mongoose mongoose-autopopulate
 yarn add install axios moment
+
+## Docker
+
+- En la raíz de cada carpeta:
+  yarn run build
+
+- En la raíz del proyecto:
+  docker-compose up --build -d
